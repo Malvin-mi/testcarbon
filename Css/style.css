@@ -913,6 +913,10 @@ nav .navbar-toggler {
 }
 
 @media (max-width:425px) {
+
+    .mentorspage .hder {
+        font-size: 1.6rem;
+    }
     .mentorspage .test {
         font-size: 1rem !important;
     }
@@ -945,9 +949,7 @@ nav .navbar-toggler {
 }
 
 @media (max-width:320px) {
-    .mentorspage .hder {
-        font-size: 1.6rem;
-    }
+  
     .mentorspage .test{
         font-size: 0.9rem !important;
         padding-left: 20px;

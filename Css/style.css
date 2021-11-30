@@ -1,0 +1,1270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;600;900&display=swap');
+
+   
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-header-one {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 72px;
+}
+.about-header-two {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #434540;
+}
+.about-body-1 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+}
+.about-body-2 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+}
+.about-body-3 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 48px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #434540;
+}
+.about-body-4 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #434540;
+}
+.about-body-5 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+.about-image-3 {
+	position: relative;
+	top: -1%;
+	margin-left: 73%;
+}
+.about-paragraph-1 {
+	width: 80%;
+}
+.about-image-2 {
+	position: relative;
+	bottom: 0%;
+	left: 18%;
+	top: 2%;
+}
+.about-card {
+	background-color: #c2e4ff !important;
+}
+.about-cards {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #434540;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+.about-image-1 {
+	height: 82%;
+	left: 10%;
+}
+.about-img-last {
+	margin-top: 18.5rem;
+}
+.about-main {
+	background-image: url('../Images/Background/landing_page_web.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.about-second-section-images {
+	justify-content: end;
+}
+.about-button {
+	animation: about-button 3s ease-out infinite normal;
+}
+@keyframes about-button {
+	0% {
+		transform: scale(0.9);
+	}
+	25% {
+		transform: scale(1.1);
+	}
+	60% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(0.9);
+	}
+}
+.about-button .about-bn:hover {
+	background-color: #14b5e6;
+	border: none;
+}
+.about-img-1 {
+	transition: 500ms;
+}
+.about-img-1:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.about-img-2 {
+	transition: 500ms;
+}
+.about-main-2 {
+	overflow-x: hidden;
+}
+.about-img-2:hover {
+	transform: scale(0.9);
+	cursor: pointer;
+}
+
+.about-last {
+	padding-top: 20%;
+}
+.about-las {
+	margin-top: 38rem !important;
+}
+
+@media screen and (max-width: 1024px) {
+	.about-las {
+		margin-top: 30rem !important;
+	}
+	.about-image-1 {
+		height: 100%;
+		left: 0%;
+	}
+	.about-paragraph-1 {
+		width: 100%;
+	}
+	.about-paragraph-2 {
+		width: 80%;
+	}
+
+
+	.about-second-section-images {
+		justify-content: center;
+		display: flex;
+	}
+}
+
+/* home support fonts */
+.home-why-kodecamp{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    /* or 108% */
+}
+
+.home-fs-20{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    /* or 154% */
+
+    text-align: justify;
+}
+
+.home-info-bg-pink{
+    background: #F8BCCE;
+    box-shadow: 0px 4px 4px rgba(248, 188, 206, 0.5);
+}
+
+.home-info-bg-green{
+    background: #C7F4C0;
+    box-shadow: 0px 4px 4px rgba(248, 188, 206, 0.5);
+}
+
+.home-info-bg-brown{
+    background: #F5D8AB;
+    box-shadow: 0px 4px 4px rgba(245, 216, 171, 0.5);
+}
+
+.home-fs-24{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    /* or 200% */
+}
+
+.home-fs-pop-card-header{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.home-mentors-header{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    flex-wrap: nowrap;
+}
+
+.home-mentors-body{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    
+    /* identical to box height, or 150% */
+
+}
+
+.home-fs-intern-test{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 28px;
+}
+
+.home-fs-intern-test{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: -0.005em;
+}
+
+.home-fs-intern-name{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    /* identical to box height, or 66% */
+    text-align: center;
+    letter-spacing: -0.005em;
+}
+
+.home-number-subheader{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    /* or 154% */
+
+    text-align: center;
+}
+
+.home-fs-intern-track{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    /* or 80% */
+
+    text-align: center;
+    letter-spacing: -0.005em;
+}
+
+.home-joinus-btn-bg{
+    background: #006EC3;
+    border-radius: 6.08092px;
+}
+.home-become-mentor-btn-bg{
+    background: #669E00;
+    border-radius: 10px;
+}
+
+
+/* contact section styling */
+.contact-section input {
+    background-color:  #F5F6F4;
+ }
+ .contact-section textarea {
+     background-color:  #F5F6F4;
+ }
+ 
+ .contact-section .con-img-container {
+     border-radius: 12px;
+ 
+ }
+ 
+ @media (max-width:425px) {
+     .contact-section .con-img-container {
+         border: none !important;
+     }
+ }
+
+
+
+/* FONTS */
+/* custom fonts: note. if your text has a differnt color, use bootstrap classes to change it, do not tamper with this one. */
+
+.header-one {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px ;
+    line-height: 48px;
+    color: #434540;
+}
+
+.header-two {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 34px;
+    color: #434540;
+}
+.header-three {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    color: #434540;
+}
+
+.header-four {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.57px;
+    color: #434540;
+}
+
+.header-five {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #434540;
+}
+
+/* this is for the payment part on donate oor sponsor's page  */
+.montserrat-pay {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+/* this is for the cards on the home page  */
+.montserrat-body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #434540;
+}
+
+
+
+/* for the part that has numbers on the home page */
+
+.number-header {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 34px;
+    color: #006EC3;
+}
+
+
+
+.body-one {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.body-two {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.body-three {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.body-four {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+/* for why Kodecamp */
+.body-six {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #434540;
+}
+
+.body-seven {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.body-eight {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.body-nine {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+/* fonts for mobile, in any case where you want something else on mobile screens, just add the class you want*/
+
+@media (max-width:430px) {
+    .header-one {
+        /* this one is for the last thing on the home page */
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 29.26px;
+        color: #434540;
+    }
+    
+    .header-two {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: #434540;
+    }
+    .header-three {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        color: #434540;
+    }
+
+    .mobile-body {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(34, 34, 34, 0.7);
+    }
+
+    /* this is mostly for the forms */
+    .mobile-bodytwo {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(34, 34, 34, 0.7);
+    }
+
+    /* Home media query */
+    .home-why-circle-border{
+        border-radius: 0px;
+    }
+
+    .body-three {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 36px;
+        /* or 200% */
+    }
+
+    .home-why-kodecamp{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+
+    }
+
+    .home-why-circle-border{
+        width: 160px !important;
+        
+        /* Background colors/Background (dark) */
+        border:0px !important;
+        height: 150px !important;
+        border-radius: none !important;
+        background-color: transparent !important;
+    }
+
+    .home-number-subheader{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+    }
+
+    .number-header{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 28px;
+        /* identical to box height, or 87% */
+
+
+        /* Primary/900 */
+
+        color: #006EC3;
+    }
+
+    .home-emp-rate-size{
+        width: 110px;
+        height: 110px;
+    }
+
+    .home-fs-start-career{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .home-mentors-header{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .home-mentors-body{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+    }
+    
+    
+    
+}
+
+
+/* MY FONTS */
+
+
+
+
+
+
+/* CSS STYLING */
+.home-bg{
+    background-image: url('../Images/Background/landing_page_web.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.montserrat-heading700 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 34px;
+    color: #434540;
+}
+
+.home-why-circle-border{
+    
+    width: 320px;
+    height: 320px;
+    left: 0px;
+    top: 0px;
+    background: #F5F6F4;
+    /* Background colors/Background (dark) */
+    
+    border-radius: 50%;
+}
+
+.rounded-container{
+    border-radius: 50%;
+}
+
+.custom-bg{ 
+    background-color: #ff6433 !important;
+}
+
+.home-carousel-container{
+    min-height: 70px;
+    flex: 1;
+
+}
+
+.home-carousel-container2{
+    min-height: 200px;
+    flex: 1;
+
+}
+
+.home-carousel-container-test{
+    min-height: 220px;
+    flex: 1;
+
+}
+
+.home-p-6{
+    padding-bottom: 7rem !important;
+}
+
+
+
+/* NAVBAR AND FOOTER */
+.navbar {
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #434540;
+}
+nav .join {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* for keeping the color blue on the active page */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+     color: #006EC3;
+     font-weight: 600;
+     font-size: 20px;
+     transition: 0.2s ease-in;
+}
+
+nav .join button {
+    padding: 14px 32px;
+}
+
+nav .navbar-toggler {
+    border: none;
+}
+
+@media (max-width: 425px) {
+
+   nav .offcanvas {
+       margin-top: 2rem !important;
+       height: 60vh !important;
+       
+   } 
+
+
+   nav .offcanvas-body {
+       background-image: url('../Images/Background/mobilenav.png');
+       background-position: 3% 10%;
+       background-repeat: no-repeat;
+       text-align: center;
+   }
+
+   nav .cohort {
+       justify-content: center;
+       margin-left: 1rem;
+   }
+    
+}
+
+
+.footer-section {
+     background: rgba(25, 54, 77, 1);
+     color: #EBEDE8;;
+    
+}
+
+.footer-section .no-display-sm {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer-section .texts {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #F5F6F4;
+}
+
+.footer-section .texts-b {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #F5F6F4;
+}
+
+
+
+@media (min-width: 426px) {
+   .footer-section .small-screen {
+       display: none !important;
+   }
+}
+/* for small screens */
+@media (max-width:425px) {
+   .footer-section .mobile-footer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       
+   }
+
+   .footer-section .no-display-sm {
+       display: none !important;
+   }
+   .footer-section .small-screen .btn {
+       padding: 4px 100px;
+   }
+
+   .footer-section .margin-top {
+       margin-top: 1.5rem;
+   }
+
+}
+
+/* Become a mentor page */
+
+.mentorspage .hder {
+    color: #434540; 
+    font-family: Montserrat;
+}
+.mentorspage .vid1 {
+    display: flex;
+    justify-content: center;
+ }
+.mentorspage .dtail-1 {
+    color: #000000; 
+    font-family: Montserrat;
+}
+.mentorspage .card-img-top {
+    width: 391px; 
+    height: 391px
+}
+.mentorspage .test {
+    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.mentorspage h4 {
+    color: #434540; 
+    font-family: 'Pacifico', cursive;
+}
+.mentorspage h3 {
+    color: #434540; 
+    font-family: Inter;
+}
+.mentorspage .buttn2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    width: 347px; 
+    height: 80px; 
+    border-radius: 10px
+}
+
+@media (max-width:768px){
+    .mentorspage .vid1 {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    .mentorspage .dtail-1 {
+        font-size: 1.6rem !important;
+    }
+    .mentorspage .card-img-top {
+        width: 300px; 
+        padding-left: 20px;
+        height: 300px;
+        
+    }
+    .mentorspage .test {
+        font-size: 1rem !important;
+    }
+    .mentorspage .buttn2 {
+        font-family: Montserrat;
+        font-weight: bold;
+        width: 300px; 
+        height: 70px; 
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .mentorspage .test {
+        font-size: 1rem !important;
+    }
+    .mentorspage .dtail-1 {
+        font-size: 1rem !important;
+        width: 90%;
+        padding-left: 25px;
+    }
+    .mentorspage .vid1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .mentorspage .card-img-top {
+        padding-left: 20px;
+    }
+    .mentorspage .buttn {
+        display: grid !important;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mentorspage .buttn2 {
+        font-family: Montserrat;
+        font-size: 0.8rem;
+        font-weight: bold;
+        width: 250px; 
+        height: 70px; 
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:320px) {
+    .mentorspage .hder {
+        font-size: 1.6rem;
+    }
+    .mentorspage .test{
+        font-size: 0.9rem !important;
+        padding-left: 20px;
+        
+    }
+    .mentorspage .card-img-top {
+        width: 280px; 
+        padding-left: 20px;
+        height: 280px;
+        
+    }
+}
+
+
+/* join next cohort page*/
+.nextcohurt label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #62655D;
+}
+.nextcohurt ::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #c8ccc3;
+}
+.nextcohurt input, select{ 
+    height: 50px;
+    left: 75px;
+    top: 165px;
+    border-radius: 6px;
+}
+.nextcohurt select {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 6px;
+    line-height: 24px;
+    color: #B3B7AE;
+}
+.nextcohurt .eyeclosed {
+    position: absolute;
+    left: 560px;
+    right: 9.38%;
+    top: 410px;
+    bottom: 13.54%;
+}
+.nextcohurt .crease{
+    width: 400px;
+    height: 58px;
+    border-radius: 8px;
+}
+.nextcohurt .coline {
+    width: 75%;
+    margin-left: 50px;
+   
+}
+
+
+
+@media (max-width:1440px) {
+    .nextcohurt .eyeclosed {
+        position: absolute;
+        left: 560px !important;
+        right: 9.38%;
+        top: 510px;
+        bottom: 13.54%;
+    }
+} 
+
+@media (max-width:1024px) {
+    .nextcohurt .eyeclosed {
+        position: absolute;
+        left: 380px !important;
+        right: 9.38%;
+        top: 505px;
+        bottom: 13.54%;
+    }
+    .nextcohurt .ncohurt {
+        width: 95%;
+    }
+}
+@media (max-width:768px) {
+    .nextcohurt .eyeclosed {
+        position: absolute;
+        left: 290px !important;
+        right: 9.38%;
+        top: 505px;
+        bottom: 13.54%;
+    }
+    .nextcohurt .ncohurt {
+        width: 100%;
+    }
+}
+@media (max-width:425px){
+    .nextcohurt .crease{
+        width: 300px;
+        height: 58px;
+        border-radius: 8px;
+    }
+    .nextcohurt .eyeclosed {
+        position: absolute;
+        left: 330px !important;
+        right: 9.38%;
+        top: 490px;
+        bottom: 13.54%;
+    }
+}
+@media (max-width:375px) {
+    .nextcohurt .crease{
+        width: 250px;
+        height: 58px;
+        border-radius: 8px;
+    }
+
+    .nextcohurt .eyeclosed {
+        position: absolute;
+        left: 280px !important;
+        right: 9.38%;
+        top: 490px;
+        bottom: 13.54%;
+    }
+}
+@media (max-width:320px){
+    .nextcohurt .crease{
+        width: 200px;
+    height: 58px;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    }
+
+    .nextcohurt .eyeclosed {
+        position: absolute;
+        left: 230px !important;
+        right: 9.38%;
+        top: 485px;
+        bottom: 13.54%;
+    }
+    .nextcohurt .coline {
+        width: 70%;
+        margin-left: 50px;
+       
+    }
+}
+
+/* sponsor page custom css */
+
+.support-header{
+    /* position: absolute; */
+     font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    color: #222222B2;
+    text-align: center;
+    font-style: normal;
+    line-height: 72px;   
+}
+
+.support-para{
+    /* position: absolute; */
+    color: #222222B2;
+
+}
+.sponsor-cards h5{
+
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 37px;
+    color:#222222
+}
+
+.sponsor-cards p{
+
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #C4C4C4;
+
+}
+
+#donate-now{
+    background-color: #0094D7;
+}
+.our-donation{
+    color: #222222B2;
+
+}
+
+
+#sponsors-donate-circle{
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: #0094D7;
+    border-radius: 50%;
+    color: white
+}
+
+#sponsors-amount{
+    font-family: "Montserrat",sans-serif;
+    color: #222222;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+    
+.sponsors-make-donation{
+    background-color: #006EC3;
+}
+
+.sponsors-where-donations-go{
+    font-family: "Montserrat",sans-serif;
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.sponsors-laptop-money{
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+
+}
+.make-donation{
+    font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0em;
+}
+
+
+
+.sopnsors.form-control{
+height: 60px;
+width: 580px;
+left: 686px;
+top: 1606px;
+border-radius: 10px;
+padding: 16px, 24px, 16px, 24px;
+
+}
+
+#donate-last {
+    background-color: #006EC3;
+    color: #ffff;
+    border-radius: 10px;
+    height:2.5rem;
+   
+    font-family: Montserrat;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 24px;
+ line-height: 29px;
+ height: 79px;
+ width: 503px;
+ left: 863px;
+ top: 2294px;
+ border-radius: 10px;
+ padding: 25px, 57px, 25px, 57px;
+
+}
+#donate-via-paypal{
+   color:#006EC3 ;
+   border-color:#006EC3;
+   border-radius: 10px;
+   height:2.5rem;
+  
+   font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+height: 79px;
+width: 503px;
+left: 863px;
+top: 2294px;
+border-radius: 10px;
+padding: 25px, 57px, 25px, 57px;
+
+
+}
+
+.for-int-donors{
+    
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+@media (max-width:425px) {
+    .sponsors-make-donation{
+        /* change background color to white*/
+        background-color: #fff !important;
+        
+    }
+    #make-adonation{
+        font-size:1.5rem !important;  
+        color: #434540!important;  
+    }
+    .int-donors{
+        display: none !important;
+    }
+        
+    }

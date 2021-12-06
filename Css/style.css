@@ -474,6 +474,14 @@
     line-height: 36px;
     color: rgba(34, 34, 34, 0.7);
 }
+.body-four-faq {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C4C4C4;
+}
 /* for why Kodecamp */
 .body-six {
     font-family: 'Inter', sans-serif;
@@ -900,6 +908,8 @@ nav .navbar-toggler {
 }
 
 @media (max-width:768px){
+    
+
     .mentorspage .vid1 {
         display: flex;
         justify-content: center;
@@ -1350,8 +1360,7 @@ url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 .backside .card .card-title {
     color: #007B5E !important;
 }
-.frontside .card .card-body img {
-}
+
 .home-info-bg-pink{
     background: #F8BCCE !important;
 }

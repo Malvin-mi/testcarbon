@@ -285,8 +285,8 @@
 .home-fs-intern-test{
     font-family: Inter;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-weight: lighter;
+    font-size: 16px;
     line-height: 24px;
     text-align: justify;
     letter-spacing: -0.005em;
@@ -571,6 +571,16 @@
         line-height: 20px;
         color: rgba(34, 34, 34, 0.7);
     }
+
+    .mobile-bodytwo-ment {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(34, 34, 34, 0.7);
+    }
+
 
     /* Home media query */
     .home-why-circle-border{

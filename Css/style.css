@@ -478,7 +478,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     color: #C4C4C4;
 }
@@ -741,7 +741,7 @@
 
 /* NAVBAR AND FOOTER */
 .navbar {
-    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
 }
 
 nav ul li a {
@@ -934,6 +934,11 @@ nav .navbar-toggler {
         height: 70px; 
         border-radius: 10px;
     }
+   .mentorspage .mentorsvid iframe {
+       width: 600px;
+       height: 300px;
+   }
+
 }
 
 @media (max-width:425px) {
@@ -970,6 +975,10 @@ nav .navbar-toggler {
         height: 70px; 
         border-radius: 10px;
     }
+    .mentorspage .mentorsvid iframe {
+        width: 350px;
+        height: 180px;
+    }
 }
 
 @media (max-width:320px) {
@@ -984,6 +993,10 @@ nav .navbar-toggler {
         padding-left: 20px;
         height: 280px;
         
+    }
+    .mentorspage .mentorsvid iframe {
+        width: 300px;
+        height: 180px;
     }
 }
 

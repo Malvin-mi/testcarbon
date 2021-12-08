@@ -137,7 +137,8 @@
 }
 .about-button .about-bn:hover {
 	background-color: #14b5e6;
-	border: none;
+	border: 1px solid #14b5e6 ;
+    
 }
 .about-img-1 {
 	transition: 500ms;
@@ -339,6 +340,9 @@
     border-radius: 10px;
 }
 
+.home-land-pic {
+    border-radius: 12px;
+}
 
 /* contact section styling */
 .contact-section input {
@@ -953,6 +957,14 @@ nav .navbar-toggler {
        height: 300px;
    }
 
+   .body-nine {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(34, 34, 34, 0.7);
+}
 }
 
 @media (max-width:425px) {

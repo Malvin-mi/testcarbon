@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mentors-registration</title>
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/a6a0c41fee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav-bar here -->
+    <nav class="navbar navbar-light navbar-expand-lg bg-white">
+        <div class="container">
+          <a href="index.html">
+            <img src="./Images/Home/kodecamp logo white.png" alt="kodecamp logo" width="100" height="82" class="navbar-logo">
+      
+        </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mt-3 ms-auto">
+                <li class="nav-item  ms-5">
+                  <a class="nav-link "  href="index.html">Home</a>
+                </li>
+                <li class="nav-item ms-5">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item ms-5">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item ms-5">
+                  <a class="nav-link"  href="faq.html">FAQ</a>
+                </li>
+              </ul>
+            
+              <div class="d-flex cohort">
+                <a class="nav-link join"  href="nextcohort.html"><button  type="button" class="btn btn-primary">Join our next cohort</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- registration section -->
+    <section class="registration-section my-4">
+        <div class="container">
+            <div class="header-one text-center" style="color: #0084EB;">
+                Make a difference in the <br> lives of young minds.
+            </div>
+            <div class="registration-form py-5 body-seven">
+                <form action="">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control py-3" id="firstName" placeholder="Enter your first name" required>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control py-3" id="lastName"  placeholder="Enter your last name" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" required>
+                               
+                              </div>
+                          
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3">
+                                <label for="Location" class="form-label">Location</label>
+                                <input type="text" class="form-control py-3" id="location" placeholder="Enter location" required>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3">
+                                <label for="select" class="form-label">Preferred Mentoring Track</label>
+                                <select id="select" class="form-select" required >
+                                  <option value="" disabled selected>Select Preferred Track</option>
+                                  <option>Mobile Development</option>
+                                  <option>UI/UX Design</option>
+                                  <option>Web Development</option>
+                                </select>
+                              </div>
+                          
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            
+                            <div class="mb-3">
+                                <label for="gHub-profile" class="form-label">GitHub Profile</label>
+                                <input type="url" class="form-control py-3" id="gHub-profile" placeholder="Enter GitHub profile url" required>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="select" class="form-label">How many years of experiene do you have on the chosen field?</label>
+                        <select id="select" class="form-select" required >
+                          <option value="" disabled selected>Select years of experience</option>
+                          <option>Less than 1 year</option>
+                          <option>1 - 2 years</option>
+                          <option>3 - 4 years</option>
+                          <option>5 years and Above</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="aboutSelf" class="form-label">Tell us about yourself (min. 50 words)</label>
+                        <textarea type="text" class="form-control" id="aboutSelf" style="height: 100px" placeholder="Write about yourself here" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="select" class="form-label">How many hours can you dedicate to KodeCamp weekly?</label>
+                        <select id="select" class="form-select" required >
+                          <option value="" disabled selected>Select number of hours</option>
+                          <option value="10 Hours">10 Hours</option>
+                          <option value="20 Hours">20 Hours</option>
+                          <option value="30 Hours">30 Hours</option>
+                          <option value="40 Hours">40 Hours</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">What is the maximum numer of learners you can handle at a given time?</label>
+                        <input type="text" class="form-control py-3" id="quantity"  placeholder="Enter the maximum number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="select" class="form-label">What time of the day will you be most available?</label>
+                        <select id="select" class="form-select" required >
+                          <option value="" disabled selected>Select time</option>
+                          <option value="All Day">All Day</option>
+                          <option value="Mornings">Mornings</option>
+                          <option value="Afternoons">Afternoons</option>
+                          <option value="Evenings">Evenings</option>
+                          <option value="Night Time">Night Time</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="select" class="form-label">Will you be available to work with the learners in the next 4 months?</label>
+                        <select id="select" class="form-select" required >
+                          <option value="" disabled selected>Select the options</option>
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                         
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn text-white reg-btn" style="background-color: #0084EB;">Register</button>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer here -->
+    <section class="footer-section py-4">
+        <div class="container">
+          <div class="row justify-content-between mobile-footer">
+             <div class="col-lg-4 col-md-4 margin-top">
+                 <div>
+                  <a href="index.html">
+                    <img src="./Images/Home/kodecamp logo white.png" alt="kodecamp logo" width="100" height="82">
+                 </a>
+                 </div>
+                 <p class="no-display-sm">Subscribe for important updates!</p>
+                 <div class="footer-input no-display-sm">
+                     <form action="">
+                             <div class="input-group mb-3">
+                                 <input type="email" class="form-control" placeholder="&#xf0e0; Enter email address here"  style="font-family: FontAwesome" aria-label="email" aria-describedby="basic-addon2">
+                                 <button class="btn btn-primary" id="basic-addon2" type="submit">Subscribe</button>
+                              </div>
+                     </form>
+                 </div>
+                
+             </div>
+             <div class="col-lg-2 col-md-2 margin-top">
+                 <h5 class="texts-b">Links</h5>
+                 <p><a href="index.html" class="text-white text-decoration-none  texts">Home</a></p>
+                 <p><a href="faq.html" class="text-white text-decoration-none texts">FAQ</a></p>
+                 <p><a href="about.html" class="text-white text-decoration-none texts">About us</a></p>
+                
+             </div>
+ 
+             <div class="small-screen margin-top texts">
+                 <h5 class="texts-b">Services</h5>
+                 <p><a href="#" class="text-white text-decoration-none texts">Web Development</a></p>
+                 <p><a href="#" class="text-white text-decoration-none texts">Mobile Development</a></p>
+                 <p><a href="#" class="text-white text-decoration-none texts">Web Design</a></p>
+ 
+             </div>
+             
+             <div class="col-lg-3 col-md-3 margin-top">
+                 <h5><a href="#" class="text-white text-decoration-none texts-b">Contact</a></h5>
+                 <p># 38 Afaha Uqua Road, Eket <br> Akwa-Ibom State.</p>
+                 <p class="text-primary reach texts"><a href="mailto:kodecampteam@gmail.com" class="text-decoration-none">kodecampteam@gmail.com</a>  <br><a href="tel:+234 (0)8109507906" class="text-decoration-none">+234 (0)8109507906</a></p>
+                 
+             </div>
+             <div class="col-lg-3 col-md-3 margin-top">
+                 <h5 class="text-center texts-b">Follow us</h5>
+                 <div class="d-flex justify-content-around">
+                     <a href="https://www.linkedin.com/company/kodecamp-team/" target="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                     <a href="https://web.facebook.com/kodehauzcamp/" target="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                     <a href="https://www.instagram.com/kode.camp/" target="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                     <a href="https://mobile.twitter.com/kode_camp" target="#" class="text-white"> <i class="bi bi-twitter"></i></a>
+                    
+                 </div>
+ 
+ 
+             </div>
+             <div class="small-screen mt-4 texts">
+                 <p class="texts-b">Subscribe for important updates!</p>
+                 <div class="footer-input">
+                     <form action="">
+                             <div class="form-group mb-3">
+                                 <input type="email" class="form-control"  placeholder="&#xf0e0; Email"  style="font-family: FontAwesome" aria-label="email">
+                                 <button class="btn btn-primary mt-3" type="submit">Subscribe</button>
+                              </div>
+                     </form>
+                 </div>
+ 
+             </div>
+ 
+             <div class="border-top border-white">
+                 <p class="text-center mt-3 texts-b">© <script>document.write( new Date().getFullYear() );</script> Kodecamp</p>
+             </div>
+ 
+          </div>
+        </div>
+ 
+    </section>
+    <script src="./JS/bootstrap.min.js"></script>
+</body>
+</html>

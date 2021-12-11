@@ -316,7 +316,7 @@
 }
 
 .home-intern .car-con {
-    margin-top: 575px;
+    margin-top: 590px;
 }
 
 .home-fs-intern-track{
@@ -369,9 +369,9 @@
 /* custom fonts: note. if your text has a differnt color, use bootstrap classes to change it, do not tamper with this one. */
 
 .header-one {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',  sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 48px ;
     line-height: 48px;
     color: #434540;
@@ -1084,6 +1084,12 @@ nav .navbar-toggler {
    
 }
 
+/* mentors registration  */
+
+.registration-section .reg-btn {
+    padding: 8px 100px;
+}
+
 
 
 
@@ -1417,3 +1423,4 @@ url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
     background: #F5D8AB !important;
     box-shadow: 0px 4px 4px rgba(245, 216, 171, 0.5) !important;
 }
+

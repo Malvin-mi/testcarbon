@@ -930,6 +930,11 @@ nav .navbar-toggler {
     height: 80px; 
     border-radius: 10px
 }
+.mentorspage .ment-bod {
+    width: 80%;
+    margin: auto;
+}
+
 
 @media (max-width:768px){
     
@@ -1011,6 +1016,11 @@ nav .navbar-toggler {
         width: 350px;
         height: 180px;
     }
+    .mentorspage .mentors-carousel {
+       display: none !important;
+        
+    }
+
 }
 
 @media (max-width:320px) {

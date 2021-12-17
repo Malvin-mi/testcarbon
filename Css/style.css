@@ -1025,7 +1025,7 @@ nav .navbar-toggler {
        display: none !important;
         
     }
-
+   
 }
 
 @media (max-width:320px) {
@@ -1126,6 +1126,10 @@ nav .navbar-toggler {
         height: 58px;
         border-radius: 8px;
     }
+
+    .nextcohurt .b-right {
+        display: none !important;
+     }
   
 }
 @media (max-width:375px) {
